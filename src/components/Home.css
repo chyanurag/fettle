@@ -1,0 +1,67 @@
+.HomePage{
+    display: flex;
+    justify-content:flex-end;
+    align-items: center;
+    padding-top:50px;
+    margin-right: 150px;
+    position:relative;
+    
+  }
+  .leaf{
+    position: absolute;
+    left:500px;
+    bottom: 300px;
+    transform: rotate(31deg);
+  }
+  .leaf3{
+    position: absolute;
+    left:500px;
+    top: 510px;
+    transform: rotate(-10deg);
+    width:500px;
+  }
+  .kiwi{
+    position: absolute;
+    right:-100px;
+    top: 450px;
+    width:300px;
+  }
+  .panner{
+    position: absolute;
+    border-radius: 50%;
+    transform: rotate(-270deg);
+    width:750px;
+    left:-140px;
+    top: 120px;
+  }
+  .rectanglediv{
+    height:570px;
+    width: 650px;
+    border:5px solid #FFE86D;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background:#FFFDF2;
+    border-radius: 100px;
+  }
+  .title{
+    color:#014B00;
+    font-size: 70px;
+    font-weight: 500;
+  }
+  .description
+  {
+    padding-top:30px;
+    width:350px;
+    font-size: 20px;
+    color:#377D01;
+  }
+  .register
+  {
+    width: 200px;
+    
+    height:150px; 
+    font-size: 58px;
+  }
